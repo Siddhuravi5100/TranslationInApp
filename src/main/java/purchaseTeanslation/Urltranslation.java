@@ -5000,9 +5000,20 @@ WebElement textArea26 = driver.findElement( By.xpath("//textarea[contains(@class
     
     
    
+                    //		five_hr_offer
+
     
-    
-    
+                    		Thread.sleep(2000);
+                         	 firstButton = wait.until(ExpectedConditions.elementToBeClickable(
+                         		    By.xpath("(//span[text()='View in-app product'])[14]")
+                         		));
+                         		firstButton.click();   
+                           	 manageTranslationsButton = wait.until(
+                          	        ExpectedConditions.elementToBeClickable(
+                          	            By.cssSelector("material-button[debug-id='manage-translations-button'] button") ));
+                          	    manageTranslationsButton.click();
+                          	   // driver.findElement(By.cssSelector("material-button[debug-id='manage-translations-button'] button")).click();
+                          	    Thread.sleep(3000);
     
     
     
