@@ -27,7 +27,6 @@ public class Urltranslation {
 		driver.manage().window().maximize();
 
 
-
 	
 	
 	driver.get("https://play.google.com/console/u/0/developers/8640556426190716779/app/4974104740153793134/managed-products/sku-ads_free");
